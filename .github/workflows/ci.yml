@@ -1,4 +1,4 @@
-name: Boas-vindas
+name: Boas-vindas Ajustado
 
 on:
   workflow_dispatch:
@@ -12,3 +12,5 @@ jobs:
     steps:
       - name: Cumprimentar a turma
         run: echo "Olá, GitHub Actions!"
+      - name: Listar Arquivos
+        run: ls -la
